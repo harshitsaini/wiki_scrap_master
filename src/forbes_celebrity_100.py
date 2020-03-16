@@ -1,26 +1,7 @@
-#mw-content-text > div > table:nth-child(8) > tbody > tr:nth-child(2) > td:nth-child(2) > a
-#mw-content-text > div > table:nth-child(8) > tbody > tr:nth-child(9) > td:nth-child(2) > a
-
-#mw-content-text > div > table:nth-child(10) > tbody > tr:nth-child(9) > td:nth-child(2) > a
-
-#mw-content-text > div > table:nth-child(11) > tbody > tr:nth-child(7) > td:nth-child(2) > a
-
-#mw-content-text > div > table:nth-child(12) > tbody > tr:nth-child(7) > td:nth-child(2) > a
-
-#mw-content-text > div > table:nth-child(13) > tbody > tr:nth-child(6) > td:nth-child(2) > a
-
-#mw-content-text > div > table:nth-child(14) > tbody > tr:nth-child(11) > td:nth-child(2) > a
-
-#mw-content-text > div > table:nth-child(28) > tbody > tr:nth-child(10) > td:nth-child(2) > a
-
-#mw-content-text > div > table:nth-child(30) > tbody > tr:nth-child(6) > td:nth-child(2) > a
-
-#mw-content-text > div > table:nth-child(30) > tbody > tr:nth-child(6) > td:nth-child(2) > a
-
 from bs4 import BeautifulSoup
 import requests
 
-WIKI_BASE_URL = "https://en.wikipedia.org/"
+WIKI_BASE_URL = "https://en.wikipedia.org"
 
 
 def get_forbes_celebrity_100_links():

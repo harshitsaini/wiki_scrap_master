@@ -6,7 +6,7 @@ from multiprocessing.pool import Pool
 import requests
 from bs4 import BeautifulSoup, SoupStrainer
 
-WIKI_BASE_URL = "https://en.wikipedia.org/"
+WIKI_BASE_URL = "https://en.wikipedia.org"
 
 
 def join_lists(x, y):

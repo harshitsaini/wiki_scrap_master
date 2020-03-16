@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 
-WIKI_BASE_URL = "https://en.wikipedia.org/"
+WIKI_BASE_URL = "https://en.wikipedia.org"
 
 
 def get_league_of_legends_players_links():

@@ -1,7 +1,7 @@
 from bs4 import BeautifulSoup
 import requests
 
-WIKI_BASE_URL = "https://en.wikipedia.org/"
+WIKI_BASE_URL = "https://en.wikipedia.org"
 
 #mw-content-text > div > ul:nth-child(51) > li:nth-child(3)
 
